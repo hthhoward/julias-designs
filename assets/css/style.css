@@ -80,6 +80,14 @@ a:focus{
 .container{
 	overflow:hidden;
 }
+
+.logo-section-name{
+	display:inline-block;
+	position:absolute;
+	padding-bottom:15px;
+    z-index: -1; position:relative;
+}
+
 .section-name{
 	font-weight:700;
 	text-align:center;
@@ -467,7 +475,7 @@ a:focus{
 	font-size:66px;
 	font-family:'quicksand';
 	margin:0 0 50px 0;
-	padding-bottom:50px;
+	padding-bottom:20px;
 	position:relative;
 }
 .site-title:before,
@@ -477,7 +485,6 @@ a:focus{
 	height:10px;
 	left:50%;
 	margin-left:-50px;
-	border-bottom:1px double #fff;
 	position:absolute;
 }
 .site-title:before{
