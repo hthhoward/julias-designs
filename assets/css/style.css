@@ -83,9 +83,10 @@ a:focus{
 
 .logo-section-name{
 	display:inline-block;
-	position:absolute;
-	padding-bottom:15px;
-    z-index: -1;
+    padding-bottom: 40px;
+    padding-left:47%;
+	position:relative;
+    z-index: 100;
 }
 
 .section-name{
@@ -474,7 +475,6 @@ a:focus{
 	text-align:center;
 	font-size:66px;
 	font-family:'quicksand';
-	margin:0 0 50px 0;
 	padding-bottom:20px;
 	position:relative;
 }
